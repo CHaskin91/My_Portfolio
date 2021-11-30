@@ -105,10 +105,14 @@ header nav a:hover {
 }
 
 .hero img {
-    width: 150px;
-    margin: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
     border-radius: 10%;
     opacity: 0.8;
+    align-items: center;
+    vertical-align: bottom;
 }
 
 .hero img:hover {
