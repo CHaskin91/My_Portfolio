@@ -32,7 +32,7 @@ p {
 
 /* Header Styles */
 header {
-    padding: 15px 6% 15px 0;
+    padding: 20px 35px;
     background-color: var(--light-color);
     display: flex;
     flex-direction: row;
@@ -56,12 +56,14 @@ header h1 {
     font-size: 40px;
     line-height: 1;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: auto;
 }
 
 header a {
     text-decoration: none;
     color: var(--secondary-color);
     text-align: center;
+    margin-right: auto;
 }
 
 /* Navigation Styles */
@@ -106,13 +108,12 @@ header nav a:hover {
 }
 
 .hero img {
-    display: inline-block;
-    margin-left: auto;
+    display: flex;
     margin-right: auto;
     width: 20%;
     border-radius: 10px;
     opacity: 0.8;
-    align-items: center;
+    align-items: left;
     vertical-align: bottom;
 }
 
@@ -125,17 +126,18 @@ header nav a:hover {
     color: var(--secondary-color);
     margin: 0;
     padding: 5px 10px;
-    font-size: 2.2rem;
+    font-size: 30px;
     line-height: 1.2;
     display: center;
 }
 
 /* About Me Section */
 .page-wrap {
-    max width: 85%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
+    
 
 .main-section {
     margin: 25px 0;
@@ -166,7 +168,34 @@ header nav a:hover {
 }
 
 /* My Work/Portfolio Section */
+/* THIS SECTION NEEDS MOST HELP */
+.flex-container {
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
 
+.flex-item {
+    border: 5px solid var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    flex: 0 1 auto;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    font-size: 15px;
+}
+
+.flex-item h3 {
+    text-align: bottom;
+    text-decoration: none;
+    color: black;
+}
 
 /* My Work/Portfolio Images */
 .Run-Buddy-Project {
@@ -177,11 +206,15 @@ header nav a:hover {
     background-image: url("../Images/Horiseon_final.PNG");
 }
 
+.Robot-Gladiators-Project {
+    background-image: url("../Images/robot_gladiator_Pic.jpg");
+}
+
 /* Contact Me Styles */
 .contact-me address {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
@@ -190,11 +223,9 @@ header nav a:hover {
     color: var(--secondary-color);
     padding: 5px;
     text-decoration: none;
-    font-size: 17.6px;
     font-style: normal;
-    background-image: linear-gradient(260deg, var(--secondary-color) 0%, var(--secondary-color) 100%);
     background-repeat: no-repeat;
-    background size: 100% 3.2px;
+    background-size: 100% 3.2px;
     background-position: bottom;
     transition: all .25s ease-in;
     margin: 0 3.2px 1.6px;
@@ -202,10 +233,8 @@ header nav a:hover {
 }
 
 .contact-me address a:hover {
-    background: var(--secondary-color);
+    background-size: 100% 88%;
     color: var(--primary-color);
-    border-radius: 15px;
-    text-shadow: none;
 }
 
 /* Footer Styles */
@@ -232,18 +261,18 @@ footer {
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
-    header nav ul {
+    header nav {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
     }
 
-    header nav ul li a {
+    header nav a {
         font-size: 20px;
         text-shadow: 0 0 10px rgba (0, 0, 0, 0.5)
     }
 
-    header nav ul li a:hover {
+    header nav a:hover {
         background: var(--primary-color);
         color: var(--secondary-color);
         border-radius: 15px;
@@ -255,24 +284,13 @@ footer {
         width: 100%;
     }
 
-    .hero-cta, .hero-form {
+    .hero {
         width: 100%;
-    }
-
-    .hero-cta {
         text-align: center;
     }
 
     .section-title {
         width: 80%;
-    }
-
-    .trainer {
-        flex: 0 70%;
-    }
-
-    .contact-info iframe {
-        flex: 1 100%;
     }
 }
 
