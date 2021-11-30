@@ -95,6 +95,7 @@ header nav a:hover {
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
+    border: 5px solid var(--primary-color);
     min-height: 30vh;
     padding: 2% 6;
     display: flex;
@@ -109,7 +110,7 @@ header nav a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    border-radius: 10%;
+    border-radius: 10px;
     opacity: 0.8;
     align-items: center;
     vertical-align: bottom;
@@ -164,8 +165,20 @@ header nav a:hover {
     color: black;
 }
 
+/* My Work/Portfolio Section */
+
+
+/* My Work/Portfolio Images */
+.Run-Buddy-Project {
+    background-image: url("../Images/run_buddy_final.PNG");
+}
+
+.Horiseon-Project {
+    background-image: url("../Images/Horiseon_final.PNG");
+}
+
 /* Contact Me Styles */
-.contact address {
+.contact-me address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -173,7 +186,7 @@ header nav a:hover {
     height: 100%;
 }
 
-.contact address a {
+.contact-me address a {
     color: var(--secondary-color);
     padding: 5px;
     text-decoration: none;
@@ -188,13 +201,13 @@ header nav a:hover {
     display: inline-block;
 }
 
-.contact address a:hover {
-    background-size: 100% 88%;
+.contact-me address a:hover {
     background: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 15px;
     text-shadow: none;
 }
+
 /* Footer Styles */
 footer {
     padding: 30px;
