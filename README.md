@@ -9,3 +9,4 @@
 * Circle Snippet Tool [https://crop-circle.imageonline.co/]
 * Font Awesome [https://fontawesome.com/]
 * Robot Gladiator Image [https://media.istockphoto.com/vectors/angry-robot-vector-id137525883?k=20&m=137525883&s=612x612&w=0&h=GBouMCyOyPlAJ8VgU8LkDlDeZuWe6lfZ6_6B660So_0=]
+* Stay Tuned Image [https://mir-s3-cdn-cf.behance.net/projects/404/65868c59830599.Y3JvcCwxMjY4LDk5Myw2NSww.jpg]
