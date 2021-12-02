@@ -259,19 +259,11 @@ header nav a:hover {
 }
 
 /* Contact Me Styles */
-.contact-me address {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
 .contact {
     justify-content: space-between;
 }
 
-.contact-me address a {
+.address a {
     color: var(--secondary-color);
     padding: 5px;
     font-style: normal;
@@ -279,7 +271,7 @@ header nav a:hover {
     display: inline-block;
 }
 
-.contact-me address a:hover {
+.address a:hover {
     background-size: 100% 88%;
     color: var(--secondary-color);
 }
@@ -287,6 +279,11 @@ header nav a:hover {
 .fab {
     margin: 1rem;
     color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 /* Footer Styles */
