@@ -1,4 +1,5 @@
 # Corbin Haskin Portfolio
+Welcome to my portfolio!  Check out the link below to watch my progression into coding!  My portfolio includes my work/projects I'm working on with Rice University Coding Bootcamps.  It includes some additional info about me, my resume, and contact information as well!  Check out my progress!
 
 ## Live URL and GitHub Repo
 * My Portfolio [https://chaskin91.github.io/My_Portfolio/]

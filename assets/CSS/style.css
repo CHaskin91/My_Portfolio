@@ -170,24 +170,7 @@ header nav a:hover {
 
 /* My Work/Portfolio Section */
 /* THIS SECTION NEEDS MOST HELP */
-.flex-container {
-    flex: 0 1 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 10px;
-    row-gap: 10px;
-}
-
 .flex-container1 {
-    flex: 0 1 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-}
-
-.flex-container2 {
-    display: flex;
     flex: 0 1 auto;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -212,7 +195,7 @@ header nav a:hover {
 .grid-item {
     border: 5px solid var(--secondary-color);
     color: var(--primary-color);
-    display: flex;
+    display: inline-flex;
     flex: 0 1 auto;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -221,20 +204,25 @@ header nav a:hover {
     font-size: 15px;
     margin: .4rem;
     padding: 4.5rem;
-    width: 21rem;
+    width: 47.5%;
 }
 
 .flex-item h3 {
-    text-align: bottom;
-    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     text-decoration: bold;
-    color: var(--secondary-color)
+    color: white;
+    background-color: var(--secondary-color);
 }
 
 .flex-item span {
-    text-align: bottom;
-    text-align: right;
-    color: var(--secondary-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: bold;
+    color: white;
+    background-color: var(--secondary-color);
 }
 
 /* My Work/Portfolio Images */
@@ -261,6 +249,12 @@ header nav a:hover {
 /* Contact Me Styles */
 .contact {
     justify-content: space-between;
+}
+
+address {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .address a {
@@ -338,10 +332,23 @@ footer {
         text-align: center;
     }
 
-    .section-title {
-        width: 80%;
+    .grid-item {
+        border: 5px solid var(--secondary-color);
+        color: var(--primary-color);
+        display: inline-flex;
+        flex: 0 1 auto;
+        align-items: flex-end;
+        padding: 0 0 20px 0;
+        text-decoration: none;
+        background-size: 100%;
+        font-size: 15px;
+        margin: .4rem;
+        padding: 4.5rem;
     }
-}
+
+} 
+
+
 
 /* Media Query for Tablets and Smaller */
 @media screen and (max-width: 768px) {
@@ -349,56 +356,34 @@ footer {
         padding: 30px 15px;
     }
 
-    .step h3 {
-        flex: 1 100%;
-        text-align: center;
-    }
-
-    .step-info {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .step-img {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .step-text {
-        flex: 100%;
+    .grid-item {
+        border: 5px solid var(--secondary-color);
+        color: var(--primary-color);
+        display: inline-flex;
+        flex: 0 1 auto;
+        align-items: center;
+        padding: 0 0 20px 0;
+        text-decoration: none;
+        background-size: 100%;
+        font-size: 15px;
+        margin: .4rem;
+        width: 46.75%;
     }
 }
 
 /* Media Query for Mobile Phones and Smaller */
 @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
-
-    .section-title {
-        width: 95%;
-    }
-
-    .intro p {
-        width: 100%;
-    }
-
-    .trainer {
-        flex: 0 100%;
-    }
-
-    .contact-info {
-        text-align: center;
-    }
-
-    .contact-info > * {
-        flex: 0 100%;
-    }
-
-    .contact-form {
-        order: 3;
+    .grid-item {
+        border: 5px solid var(--secondary-color);
+        color: var(--primary-color);
+        display: inline-flex;
+        flex: 0 1 auto;
+        align-items: center;
+        padding: 0 0 20px 0;
+        text-decoration: none;
+        background-size: 100%;
+        font-size: 15px;
+        margin: .4rem;
+        width: 45%;
     }
 }
