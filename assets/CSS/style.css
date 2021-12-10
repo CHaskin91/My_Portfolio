@@ -238,12 +238,12 @@ header nav a:hover {
     background-image: url("../Images/robot_gladiator_Pic.jpg");
 }
 
-.Project4-Tentative {
-    background-image: url("../Images/stay_tuned.jpg");
+.Taskinator {
+    background-image: url("../Images/Taskinator.PNG");
 }
 
-.Project5-Tentative {
-    background-image: url("../Images/stay_tuned.jpg");
+.Princess-World {
+    background-image: url("../Images/princess_world.PNG");
 }
 
 /* Contact Me Styles */
@@ -395,5 +395,21 @@ footer {
         font-size: 15px;
         margin: .4rem;
         width: 45.85%;
-    } 
+    }
+}
+    
+@media screen and (max-width: 375px) {
+        .grid-item {
+            border: 5px solid var(--secondary-color);
+            color: var(--primary-color);
+            display: inline-flex;
+            flex: 0 1 auto;
+            align-items: center;
+            padding: 0 0 20px 0;
+            text-decoration: none;
+            background-size: 100%;
+            font-size: 15px;
+            margin: .4rem;
+            width: 42.75%;
+        } 
 }
