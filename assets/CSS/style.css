@@ -226,6 +226,30 @@ header nav a:hover {
 }
 
 /* My Work/Portfolio Images */
+.Movie-Night-Project {
+    background-image: url("../Images/movie-night.PNG");
+}
+
+.Weather-Project {
+    background-image: url("../Images/weather-forecaster.PNG");
+}
+
+.Work-Scheduler-Project {
+    background-image: url("../Images/work-scheduler.PNG");
+}
+
+.Git-It-Done-Project {
+    background-image: url("../Images/git-it-done.PNG");
+}
+
+.Taskmaster-Pro-Project {
+    background-image: url("../Images/taskmaster-pro.PNG");
+}
+
+.Password-Generator-Project {
+    background-image: url("../Images/password-generator.PNG");
+}
+
 .Run-Buddy-Project {
     background-image: url("../Images/run_buddy_final.PNG");
 }
